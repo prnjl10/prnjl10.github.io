@@ -266,10 +266,10 @@
                     </div>
 
                     <div class="project-card">
-                        <div class="project-meta">RTL Design & Integration // Verilog</div>
-                        <h3>32-Bit Pipelined RISC-V Processor on FPGA</h3>
-                        <p>Designed and implemented a 32-bit RISC-V processor in Verilog on the Intel DE10-Lite FPGA with a single-issue, in-order 4-stage pipeline. Engineered control-flow recovery and hazard mitigation via a decode-stage branch/jump ALU (1-cycle penalty) and merged MEM+WB forwarding. Integrated a memory-mapped Avalon-MM SoC containing dual-port SRAM, UART, and GPIO peripherals.</p>
-                        <div class="tag-group"><span class="tag">Verilog RTL</span><span class="tag">Computer Architecture</span><span class="tag">Avalon-MM</span></div>
+                        <div class="project-meta">Hardware Acceleration // SystemVerilog & Python</div>
+                        <h3>Hardware-Accelerated Network Inspector</h3>
+                        <p>Designed a 3 stage SystemVerilog pipeline inspecting Ethernet, IPv4, TCP, and UDP at 1 Gbps line rate with an 8 entry programmable rule table and 3 hardware anomaly detectors, packaged as a reusable AXI Stream IP at 125 MHz on a Xilinx Zynq SoC. Built self checking SystemVerilog testbenches for each pipeline stage and the full design, verifying bit accurate rule matching and anomaly detection across targeted stimulus. Validated on PYNQ Z2 hardware via a PYNQ Python driver and AXI DMA, classifying 703 live packets in real time, dropping 492 by rule and flagging 158 anomalies.</p>
+                        <div class="tag-group"><span class="tag">SystemVerilog</span><span class="tag">AXI-Stream</span><span class="tag">Network Security</span><span class="tag">Zynq SoC</span></div>
                         <a href="https://github.com/prnjl10" target="_blank" class="project-link">View Source &rarr;</a>
                     </div>
 
@@ -326,6 +326,14 @@
                 <h3>RISC-V UVM Verification Ecosystem</h3>
                 <p>Designed a modular UVM ecosystem for a 32-bit RV32I core enabling directed and constrained-random verification. Developed a Register Abstraction Layer (RAL) with front-door/back-door access and integrated TLM-based transaction flows. Debugged corner-case failures to achieve >98% functional coverage across all instruction groups, increasing test regression throughput by 30%.</p>
                 <div class="tag-group"><span class="tag">SystemVerilog</span><span class="tag">UVM</span><span class="tag">RAL Verification</span></div>
+                <a href="https://github.com/prnjl10" target="_blank" class="project-link">View Source &rarr;</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-meta">Hardware Acceleration // SystemVerilog & Python</div>
+                <h3>Hardware-Accelerated Network Inspector</h3>
+                <p>Designed a 3 stage SystemVerilog pipeline inspecting Ethernet, IPv4, TCP, and UDP at 1 Gbps line rate with an 8 entry programmable rule table and 3 hardware anomaly detectors, packaged as a reusable AXI Stream IP at 125 MHz on a Xilinx Zynq SoC. Built self checking SystemVerilog testbenches for each pipeline stage and the full design, verifying bit accurate rule matching and anomaly detection across targeted stimulus. Validated on PYNQ Z2 hardware via a PYNQ Python driver and AXI DMA, classifying 703 live packets in real time, dropping 492 by rule and flagging 158 anomalies.</p>
+                <div class="tag-group"><span class="tag">SystemVerilog</span><span class="tag">AXI-Stream</span><span class="tag">Network Security</span><span class="tag">Zynq SoC</span></div>
                 <a href="https://github.com/prnjl10" target="_blank" class="project-link">View Source &rarr;</a>
             </div>
 
